@@ -1,0 +1,18 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.HashMap;\nimport java.util.Scanner;\n\nclass Main {\n  \
+    \  private static void printMode( int[] map) {\n        // Enter your Code Here\n\
+    \    }\n\n    public static void main(String[] args) {\n        Scanner scanner\
+    \ = new Scanner(System.in);\n        int n = scanner.nextInt();\n        int[]\
+    \ map = new int [n];\n        for (int i = 0; i < n; ++i) { \n            map[i]\
+    \ = scanner.nextInt();\n        }\n\n        printMode(map);\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25738#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 10 May 2024 13:12:46 UTC"
+record: -1
+submission_language: java17
